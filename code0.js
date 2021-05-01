@@ -90,7 +90,7 @@ gdjs.StartscreenCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(r
 }if ( gdjs.StartscreenCode.condition0IsTrue_0.val ) {
 {
 {gdjs.StartscreenCode.conditionTrue_1 = gdjs.StartscreenCode.condition1IsTrue_0;
-gdjs.StartscreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10822836);
+gdjs.StartscreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10321004);
 }
 }}
 if (gdjs.StartscreenCode.condition1IsTrue_0.val) {
