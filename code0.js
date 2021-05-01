@@ -75,7 +75,6 @@ gdjs.StartscreenCode.condition0IsTrue_0.val = false;
 gdjs.StartscreenCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Space");
 }if (gdjs.StartscreenCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Level 1", false);
-}{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "assets\\Music\\Light-Years_V001_Looping.mp3", 1, true, 10, 1);
 }}
 
 }

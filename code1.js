@@ -1066,6 +1066,7 @@ gdjs.copyArray(runtimeScene.getObjects("PlayerHitBox"), gdjs.Level_321Code.GDPla
 }
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "Sec");
 }{runtimeScene.getVariables().get("timer").setNumber(100);
+}{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "assets\\Music\\Light-Years_V001_Looping.mp3", 1, true, 10, 1);
 }}
 
 }
