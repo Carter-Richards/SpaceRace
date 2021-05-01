@@ -103,6 +103,26 @@ gdjs.StartscreenCode.eventsList0(runtimeScene);} //End of subevents
 }
 
 
+{
+
+
+gdjs.StartscreenCode.condition0IsTrue_0.val = false;
+gdjs.StartscreenCode.condition1IsTrue_0.val = false;
+{
+gdjs.StartscreenCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+}if ( gdjs.StartscreenCode.condition0IsTrue_0.val ) {
+{
+{gdjs.StartscreenCode.conditionTrue_1 = gdjs.StartscreenCode.condition1IsTrue_0;
+gdjs.StartscreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11476316);
+}
+}}
+if (gdjs.StartscreenCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "assets\\Music\\Light-Years_V001_Looping.mp3", 1, true, 10, 1);
+}}
+
+}
+
+
 };
 
 gdjs.StartscreenCode.func = function(runtimeScene) {
