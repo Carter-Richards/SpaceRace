@@ -75,6 +75,7 @@ gdjs.StartscreenCode.condition0IsTrue_0.val = false;
 gdjs.StartscreenCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Space");
 }if (gdjs.StartscreenCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Level 1", false);
+}{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "assets\\Music\\Light-Years_V001_Looping.mp3", 1, true, 10, 1);
 }}
 
 }
@@ -99,21 +100,6 @@ if (gdjs.StartscreenCode.condition1IsTrue_0.val) {
 { //Subevents
 gdjs.StartscreenCode.eventsList0(runtimeScene);} //End of subevents
 }
-
-}
-
-
-{
-
-
-gdjs.StartscreenCode.condition0IsTrue_0.val = false;
-{
-{gdjs.StartscreenCode.conditionTrue_1 = gdjs.StartscreenCode.condition0IsTrue_0;
-gdjs.StartscreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10423964);
-}
-}if (gdjs.StartscreenCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "assets\\Music\\Light-Years_V001_Looping.mp3", 1, true, 10, 1);
-}}
 
 }
 
